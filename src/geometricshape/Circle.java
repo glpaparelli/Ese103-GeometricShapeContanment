@@ -115,7 +115,7 @@ public class Circle {
 		return contiene;
 	}
 	
-/*
+
 	public boolean Contains (Triangle t1) {
 		
 		boolean contiene;
@@ -129,8 +129,7 @@ public class Circle {
 		
 		
 		return contiene;
-	}
-*/	
+}
 	/**
 	 * metodo costruttuore
 	 * @param xc
