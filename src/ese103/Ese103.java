@@ -4,20 +4,20 @@ import geometricshape.*;
 
 public class Ese103 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
 		Circle c = new Circle(2.0,3.0,4.0);
 		System.out.println("c: "+c);
 		
 		if(c.getXC()!=2){
-			System.out.println("xc wrong");
+			throw new Exception("xc wrong");
 		}
 		if(c.getYC()!=3){
-			System.out.println("yc wrong");
+			throw new Exception("yc wrong");
 		}
 		if(c.getR()!=4){
-			System.out.println("r wrong");
+			throw new Exception("r wrong");
 		}
 		
 		c.setXC(9);
@@ -25,13 +25,13 @@ public class Ese103 {
 		c.setR(5);
 		
 		if(c.getXC()!=9){
-			System.out.println("xc wrong");
+			throw new Exception("xc wrong");
 		}
 		if(c.getYC()!=7){
-			System.out.println("yc wrong");
+			throw new Exception("yc wrong");
 		}
 		if(c.getR()!=5){
-			System.out.println("r wrong");
+			throw new Exception("r wrong");
 		}
 		
 		
@@ -44,13 +44,6 @@ public class Ese103 {
 		System.out.println("C1 contiene C?:   "+ c1.Contains(c));
 			
 		
-	/*	
-		Triangle t = new Triangle(2.0,3.0,2.0);
-		Triangle t1 = new Triangle (2.0,1.0,1.0);		
-		System.out.println(""+t.Contains(t1));
 	
-		
-		System.out.println(""+c.Contains(t));
-	*/	
 	}
 }
