@@ -5,8 +5,6 @@ package geometricshapes;
 
 public class Circle extends GeometricShape {
 
-
-
 	private double xc;
 	private double yc;
 	private double r;
