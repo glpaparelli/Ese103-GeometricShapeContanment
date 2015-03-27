@@ -152,6 +152,7 @@ public class Ese103 {
 		
 		System.out.println("Verifica Rectangle superata");
 	}
+//####################Termine verifica Rectangle#####################
 
 //#####################Verfica CIRCLE#################################	
 	
@@ -207,7 +208,7 @@ public class Ese103 {
 	}
 
 	
-//######################Termine verifica Rectangle################	
+//######################Termine verifica Circle################	
 	
 //######################Verifica Quadrato#########################
 	
@@ -258,6 +259,6 @@ public class Ese103 {
 
 	}
 	
-	
+//###############Termine verifica quadrato####################################
 	
 }
