@@ -44,9 +44,11 @@ public class Circle extends GeometricShape {
 		return r;
 	}
 	public void setR(double r) {
-		if (r<=0)
+		if (r<=0){
 			throw new IllegalArgumentException();
-		this.r = r;
+		}
+		else
+			this.r = r;
 	}
 	
 	/**
